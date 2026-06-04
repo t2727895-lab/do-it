@@ -479,13 +479,13 @@ export function Home() {
               </button>
             </FadeIn>
 
-            {/* Card 2 - Blockchain Solutions */}
+            {/* Card 2 - MVP Development Services */}
             <FadeIn delay={0.2}>
               <button onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} className="group relative p-8 bg-[#1A1D24] border border-white/5 hover:border-[#FFB300]/50 transition-all duration-500 h-[480px] md:h-[440px] flex flex-col text-left hover:bg-[#1A1D24]/80 rounded-lg">
                 <div className="absolute top-0 right-0 w-32 h-32 bg-[#FFB300]/10 blur-3xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
-                <Network className="w-10 h-10 text-[#FFB300] mb-6 shrink-0" />
-                <h4 className="text-2xl font-bold mb-4 text-[#F1F3F5]">Smart Blockchain Solutions</h4>
-                <p className="text-[#98A2B3] mb-6 flex-grow font-light text-sm leading-relaxed overflow-hidden">We are a reliable blockchain development company providing unique blockchain services & custom blockchain solutions. We design secure, scalable applications to help businesses run more efficiently & securely, & provide transparency through next-gen blockchain technology services.</p>
+                <Activity className="w-10 h-10 text-[#FFB300] mb-6 shrink-0" />
+                <h4 className="text-2xl font-bold mb-4 text-[#F1F3F5]">MVP Development Services</h4>
+                <p className="text-[#98A2B3] mb-6 flex-grow font-light text-sm leading-relaxed overflow-hidden">Transform your bold idea into a tangible, testable product. We create fully functional MVPs that validate market demand and gather real user feedback. Our 550+ successful projects help startups make confident, data-driven decisions.</p>
                 <div className="flex items-center gap-2 text-[#FFD000] group-hover:gap-3 transition-all mt-auto">
                   <span className="text-sm font-semibold">Learn More</span>
                   <ChevronRight className="w-4 h-4" />
@@ -684,6 +684,7 @@ export function Home() {
                   <p className="text-[#98A2B3] font-light">Perfect for ongoing projects, maintenance, or when scope isn't fully defined yet.</p>
                 </div>
                 <div className="flex items-baseline gap-2">
+                  <span className="text-sm text-[#98A2B3] font-light">Starting from</span>
                   <span className="text-5xl font-black text-[#FFD000]">$20</span>
                   <span className="text-lg text-[#98A2B3] font-mono">/hour</span>
                 </div>
